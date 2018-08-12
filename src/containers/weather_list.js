@@ -14,7 +14,7 @@ class WeatherList extends Component {
     // const lat = cityData.city.coord.lat;
     const { lon, lat } = cityData.city.coord;
 
-    console.log('temps - ', temps);
+    // console.log('temps - ', temps);
 
 // <td> {name} </td>
    return(

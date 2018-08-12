@@ -10,6 +10,8 @@ class SearchBar extends Component {
 
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
+
+    this.props.fetchWeather('San Francisco'); //Load by default on page load
   }
 
   onInputChange(event){
